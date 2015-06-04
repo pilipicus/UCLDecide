@@ -1,0 +1,449 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#ucl_header{
+	/*width: 100%;*/
+	background-color: black;
+	height: 100px;
+	position: fixed;
+	z-index:10;
+	top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#ucl_header #uclLogo{
+	float: right;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	right: 28px;
+	bottom: 0px;
+	cursor: pointer;
+	margin:0;
+}
+
+#horizontalNavBar{
+	background-color: white;
+}
+
+.navbar-default{
+	background-color: white;
+}
+
+#ucl_header{
+	width: 100%;
+	background-color: black;
+	height: 100px;
+	position: fixed;
+	z-index:10;
+	top: 0px;
+}
+
+
+
+
+.dropdown-toggle{
+	text-align:center;
+	background-color: white;
+	width: 158px;
+	color: black
+}
+
+.dropdown-toggle:hover, .dropdown-toggle:focus{
+	background-color: black;
+	color: white;
+}
+
+
+
+.dropdown-menu{
+	background: inherit;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-clip: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a{
+	color: black;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a{
+	color: black;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color: black;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	color: black;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: black;
+	background-color: transparent;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover{
+	background-color: transparent;
+	color: black;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+	background-color: transparent;
+	color: black;
+}
+
+
+.dropdown-menu .defaultMenuButton{
+	cursor: pointer;
+	display: block;
+	background-color: white;
+	color: black;
+	padding-left: 5px;
+	text-align: center;
+	width: 100%;
+	height: 22px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12px;
+    padding-top: 3px;
+	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+     box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+
+}
+
+.dropdown-menu .defaultMenuButton .buttonName{
+	color: black;
+}
+
+
+#mainContainer{
+	background-color:white;
+}
+
+
+#middleContent{
+	display: none;
+}
+
+
+#navigationBar{
+	top: 100px;
+	background-color: white;
+    border-color: 0;
+}
+
+.navbar-header #decideLogo{
+	height: 43px;
+	margin-left: 30px;
+	position: relative;
+	margin: 0;
+	cursor: pointer;
+}
+
+#homeButton{
+	height: 56px;
+	margin:0;
+	float:inherit;
+	padding:0;
+	padding-top: 12px;
+	cursor: pointer;
+	display: block;
+}
+
+
+
+
+
+.bgimage {
+	background-image: url("../img/headerImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#navigationSectionButtons{
+   position: fixed;
+   right:0px;
+   top: 243px;
+   width: 40px;
+   display: none;
+}
+
+#navigationSectionButtons .defaultButton{
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#navigationSectionButtons #closeButton{
+}
+
+#navigationSectionButtons #leftArrowButton{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#navigationSectionButtons #rightArrowButton{
+
+}
+
+
+
+#horizontalNavBarContainer{
+   width: 600px;
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   left: 0px;
+   right: 0px;
+   top: 110px;
+}
+
+
+
+.dropDownMenu{
+	text-align: center;
+	position: absolute;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+}
+
+.dropDownMenu .title{
+	position: relative;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 1;
+	background-color: white;
+}
+
+.dropDownMenu .title .name{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 8px;
+	padding: 0;
+	margin: 0;
+}
+
+.listContainer{
+	width: 100px;
+	height: 30px;
+	display: none;
+}
+
+.listContainer .defaultButton{
+	color: black;
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: white;
+	width: 95px;
+	height: 30px;
+	position: absolute;
+	cursor: pointer;
+	left:0px;
+	right: 0px;
+	margin-left:auto;
+	margin-right: auto;
+	-moz-box-shadow: 0 2 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.listContainer .defaultButton .buttonName{
+	color: black;
+	font-weight: normal;
+	font-size: 12px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 8px;
+	padding: 0;
+	margin: 0;
+}
+
+#navigationBar #blackReactangle{
+	width: 160px;
+	height: 3px;
+	top: 40px;
+	display: block;
+	position: absolute;
+	background-color: #000;
+	left: -2000px;
+	pointer-events: none;
+	display:none;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a{
+	color: black;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+.dropdown-toggle{
+	width: 160px;
+}
+
+#bs-example-navbar-collapse-1{
+	position: relative;
+	top: 6px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	color: black;
+}
+
+.dropdown-menu > li{
+	margin-top: 2px;
+	background-color: white;
+	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+     box-shadow: 0px 0px 3px rgba(0,0,0,.2);
+}
+
+
+.dropdown-menu > li > a, .dropdown-menu > li > a{
+	color: black;
+	
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	color: white;
+	background-color: black;
+}
+
+.navbar-inverse .navbar-toggle{
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: transparent;
+	color: black;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: transparent;
+	color: black;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+	background-color: transparent;
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a{
+	text-align: center !important;
+}
+
+
+/**/
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+	ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+    .nav .dropdown-toggle .caret { display:none; }
+    
+    #navigationBar #blackReactangle{
+    	display: block;
+    }
+      
+      ul.nav li.dropdown:hover ul.dropdown-menu {
+		    display: block;   
+		}
+	
+}
+     
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
+    .nav .dropdown-toggle .caret { display:none; }
+    
+    #navigationBar #blackReactangle{
+    	display: block;
+    }
+    
+    #navigationBar #blackReactangle
+      display: block;
+      
+      ul.nav li.dropdown:hover ul.dropdown-menu {
+		    display: block;   
+	}
+	
+	#homeButton{
+   	padding: 12px 15px 0px;
+   }
+}
+
+     
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+   .navbar-header {
+   	   height: 70px;
+   }
+   
+   #imageLogo{
+   	 height: 45px;
+   }
+   
+   .dropdown{
+   	width: 100%;
+   }
+   
+   .dropdown-toggle{
+   	width: 100%;
+   }
+   
+   #homeButton{
+   	padding: 12px 15px 0px;
+   }
+   
+   .navbar-default .navbar-nav > li > a{
+   	text-align: center;
+   }
+
+}
+     
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+  #homeButton{
+   	padding: 12px 15px 0px;
+   }
+   
+   .navbar-default .navbar-nav > li > a{
+   	 text-align: center !important;
+   }
+ }
+
+
+
+
+

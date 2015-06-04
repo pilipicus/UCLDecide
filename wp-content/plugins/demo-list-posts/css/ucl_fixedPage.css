@@ -1,0 +1,188 @@
+/*!
+ * Filippo Aiello (http://www.filippoaiello.it)
+ * */
+
+
+#homeContainer{
+	width: 100%;
+    overflow: hidden;
+}
+
+#mainContainer{
+	padding:0;
+}
+
+
+#homeContainer .container-fluid{
+	margin:0;
+	padding:0px;
+}
+
+
+.boxes{
+
+}
+
+.boxes .nameSection{
+	font-size: 12px;
+	color:#3c3533;
+	font-weight: lighter;
+	top: 8px;
+	position: relative;
+	margin:0px;
+	text-align: center;
+}
+
+.boxes .content{
+	height: 180px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+	position: relative;
+	margin-top: 14px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: black;
+}
+
+.boxes .content .title{
+	font-family: 'HelveticaNeueLTStd-BlkCn';
+	font-size: 28px;
+	padding-top: 25px;
+}
+
+
+
+#apply .staurups .content{
+	background-color: #F00;
+}
+
+#apply .business .content{
+	background-color: white;
+}
+
+.careers{
+	margin:0px;
+	padding:0px;
+}
+
+
+
+#apply .careers .content{
+	background-color: white;
+}
+
+.text-left{
+	text-align: left;
+	padding-left: 14px;
+	padding-right: 14px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.text-center{
+	left; 25px;
+	position: relative;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.text-overflow{
+	padding-left: 14px;
+	padding-right: 14px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.defaultButton{
+	width: 140px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	background-color: #000;
+	color: #FFF;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	bottom: 0;
+	left: 14px;
+	cursor: pointer;
+}
+
+.staurups .defaultButton{
+	background-color: white;
+	color: black;
+}
+
+.row{
+	padding:0px !important;
+	margin:0px !important;
+}
+
+.col-md-4{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.col-md-8{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#newsletter h3,
+.widgetGuts shortcode h3{
+	display: none !important;
+}
+
+#newsletter #frm-firstName,
+#newsletter #frm-email{
+	width: 300px;
+}
+
+.subscribeButton{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	position: relative !important;
+	display: block !important;
+	color: white;
+	background-color: black;
+	border: none;
+	padding: 7px;
+	font-weight: bold;
+}
+
+.widgetGuts.shortcode{
+	padding:0px;
+}
+
+#frm-subscriptionFront table{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display:block;
+}
+
+.col-md-4,
+.col-md-8{
+    	padding:0px !important;
+}
+
+footer{
+	height: 30px;
+	width: 100%;
+	background-color: black;
+	bottom: 0px;
+	position: absolute;
+}
+
+@media (max-width: 768px) {
+	
+	#newsletter #frm-firstName, #newsletter #frm-email{
+		width:98%;
+	}
+    
+	.widgetGuts table{
+		width:90% !important;
+	}
+}

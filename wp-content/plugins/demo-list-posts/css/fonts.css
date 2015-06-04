@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'HelveticaNeueLTStd-BlkCn';
+    src: url('../fonts/HelveticaNeueLTStd-BlkCn.otf');
+         
+    font-weight: normal;
+    font-style: normal;
+}

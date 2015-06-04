@@ -1,0 +1,260 @@
+#ourLabs{
+	padding:0;
+}	
+
+#ourLabs .sectionTitle{
+	font-size: 80px;
+	color: #a9a2a0;
+	font-weight: bold;
+	padding-bottom: 30px;
+	line-height: 70px;
+}
+
+#ourLabs #blackArea{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding:30px;
+}
+
+#ourLabs #textBlaclBox{
+	font-weight: lighter;
+}
+
+#ourLabs #imageCube{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: block;
+	padding-top: 30px;
+}
+
+#ourLabs #titleImage{
+	font-size: 36px;
+	font-weight:lighter;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+#ourLabs #redBox{
+	background-color: #e31c39;
+	width: 100%;
+	height: 100%;
+}
+
+#ourLabs #blackBox{
+	background-color: #000000;
+	color: white;
+	font-weight: lighter;
+}
+
+#ourLabs #whiteBox{
+	background-color: #FFFFFF;
+	color: black;
+	font-weight: lighter;
+}
+
+#ourLabs #textColoredBox{
+	font-size: 20px;
+	font-weight: bolder;
+	margin:0;
+	padding-top: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	line-height: 25px;
+	padding-bottom: 50px;
+}
+
+#ourLabs .coloredBox{
+	width: 100%;
+	height: 100%;
+}
+
+#ourLabs #photo{
+	max-width: 100%;
+	height: 100%;
+	display: block;
+	margin:0;
+	padding:0;
+}
+
+#ourLabs #photoBox{
+	max-width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#ourLabs .row-full-height {
+  height: 100%;
+  overflow:hidden;
+}
+
+/* vertical alignment styles */
+
+#ourLabs .col-top {
+  vertical-align: top;
+}
+#ourLabs .col-middle {
+  vertical-align: middle;
+}
+#ourLabs .col-bottom {
+  vertical-align: bottom;
+}
+
+/* columns of same height styles */
+
+#ourLabs .row-full-height {
+  height: 100%;
+}
+#ourLabs .col-full-height {
+  height: 100%;
+  vertical-align: middle;
+  padding:0;
+}
+#ourLabs .row-same-height {
+  display: table;
+  width: 100%;
+  /* fix overflow */
+  table-layout: fixed;
+}
+#ourLabs .col-xs-height {
+  display: table-cell;
+  float: none !important;
+  margin:0;
+  padding:0;
+}
+
+
+/* visual styles */
+
+
+[class*="col-"]:before {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+
+.col-full-height:before {
+}
+
+#ourLabs .item {
+  width: 100%;
+  height: 100%;
+  padding: 12px 6px;
+  background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
+  background: -moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+  background: -ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+}
+
+[class*="col-"]:before {
+  display: block;
+  position: relative;
+}
+
+/* content styles */
+
+#ourLabs .item {
+  display: table;
+}
+#ourLabs .content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+#ourLabs  .row{
+	margin:0px;
+}
+
+#greenBox{
+	background-color: #0897a9;
+	color: black;
+	font-weight: bolder;
+}
+
+#yellowBox{
+	background-color: #f3bd18;
+	color: black;
+	font-weight: bolder;
+}
+
+
+#collaborations{
+	padding:0;
+}
+
+
+#collaborations .sectionTitle{
+	font-size: 80px;
+	color: #a9a2a0;
+	font-weight: bold;
+	padding-bottom: 30px;
+	line-height: 70px;
+}
+
+#collaboration #blackArea{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding:30px;
+}
+
+#collaboration #textBlaclBox{
+	font-weight: lighter;
+}
+
+
+ * #collaborations #title{
+	font-size: 80px;
+	color: #a9a2a0;
+	font-weight: bold;
+	padding-bottom: 30px;
+	line-height: 70px;
+}
+
+#collaborations #blackArea{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding:30px;
+}
+
+#collaborations #textBlackBox{
+	font-weight: lighter;
+}
+
+#collaborations .nameCompany {
+	color: black;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+#collaborations .row{
+	margin:0;
+}
+
+
+#collaborations .boxPhoto{
+	padding:0px;
+}
+
+#collaborations #photo{
+	width: 100%;
+}
+
+#collaborations .textInside{
+	padding-top: 20px;
+	font-size: 14px;
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
+
+@media (max-width : 480px) {
+	#collaborations .sectionTitle{
+  	font-size: 30px;
+  /* Styles */
+}
